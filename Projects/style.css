@@ -29,9 +29,6 @@ body {
     height: 150px;
     background-color: black;
 }
-#bodyMain-container{
-    
-}
 #filter-container{
     display: flex;
 }
@@ -115,24 +112,88 @@ body {
     width: 80%; 
     text-align: left;
 }
-#cPlus-cont-right{
-    width: 40%;
-    background-color: #08415e;
-}
-#cPlus-cont-left{
-    width: 40%;
-    
-}
 .experience-title{
     font-size: 30px;
     color: white;
     margin: 0;
+    padding-bottom: 20px;
 }
 .experience-logo{
     width: 40px;
+    height: 45px;
     margin-left: 25px;
     padding-bottom: 10px;
 }
-.exp-title-cont{
+#cPlus-cont{
+    width: 100%;
     display: flex;
+    border:  2px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.exp-title-cont{
+    width: 100%;
+    display: flex;
+}
+#cPlus-cont-left{
+    width: 50%;
+
+}
+#linkList-image{
+    width: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+#map-image{
+    width: 200px;
+    position: relative;
+    top: 20%;
+    right: 0;
+    padding-left: 40px;
+}
+#tree-image{
+    width: 200px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+#cPlus-cont-right{
+    width: 50%;
+    background-color: #071017;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#exp-descript-cont{
+    font-size: 20px;
+    color: #00A86B;
+    padding: 20px;
+
+}
+.descript-list{
+    padding-bottom: 10px;
+}
+.GitHub-button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+}
+.GitHub-button:hover{
+    background-color: #19364d ;
+    color:#00A86B;
+}
+.button-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
