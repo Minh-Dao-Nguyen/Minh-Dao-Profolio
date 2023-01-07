@@ -62,8 +62,6 @@ body {
     border-radius: 50%;
     border: 0.8px dashed white; 
     position: relative;
-
-    
 }
 .logo_cont{
     width: 70px;
@@ -105,4 +103,36 @@ body {
 .lang-button:hover{
     width: 150%;
 }
-
+#projects-container{
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#cPlus-container{
+    width: 80%; 
+    text-align: left;
+}
+#cPlus-cont-right{
+    width: 40%;
+    background-color: #08415e;
+}
+#cPlus-cont-left{
+    width: 40%;
+    
+}
+.experience-title{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.experience-logo{
+    width: 40px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+.exp-title-cont{
+    display: flex;
+}
