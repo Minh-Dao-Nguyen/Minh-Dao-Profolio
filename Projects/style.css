@@ -140,7 +140,7 @@ body {
 }
 .project-title-cont{
     width: 100%;
-    display: flex;n 
+    display: flex;
 }
 .project-cont-left{
     width: 50%;
@@ -203,4 +203,20 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
+}
+#email1-img{
+    width: 200px;
+    padding-left: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#email2-img{
+    width: 200px;
+    padding-top: 60px;
+    padding-left: 40px;
+    position: relative;
+    bottom: 0;
+    right: 0;
 }
