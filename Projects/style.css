@@ -205,6 +205,14 @@ body {
     justify-content: center;
     margin-bottom: 40px;
 }
+#runtimed-logo{
+    width: 150px; 
+    padding-left: 20px;
+}#runtimed-gif{
+    width: 300px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
 #email1-img{
     width: 200px;
     padding-left: 20px;
@@ -219,4 +227,30 @@ body {
     position: relative;
     bottom: 0;
     right: 0;
+}
+#expo1-img{
+    width: 250px;
+    padding-left: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#expo2-img{
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+#dish1-img{
+    width: 250px;
+    padding-left: 20px;
+    
+}
+#dish2-img{
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+
 }
