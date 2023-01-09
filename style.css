@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     text-align: center;
     font-family: 'Open Sans';
 }
@@ -24,8 +25,24 @@ body {
     background-color: #0d333b;
     padding:10px; 
 }
-#bodyMain-container{
-
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: #0d333b;
+}
+#footer-location, #footer-social, #footer-contact{
+    width: 33.3%;
+}
+.footer-cont{
+    display: block;
+}
+.footer-title{
+    font-size: 25px;
+    color: white;
+}
+.footer-text{
+    font-size: 18px;
+    color: white;
 }
 #aboutMe-container{
     display: flex;
@@ -99,6 +116,7 @@ body {
     display: flex;
 }
 #experience1-text{
+    font-size: 17px;
 }
 #experience1-img{
     text-align: center;
