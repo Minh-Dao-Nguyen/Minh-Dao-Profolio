@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+
+<body onload="typeText()">
     <div id="nav-container">
         <nav id="navBar">
             <ul id="navLi-container">
@@ -21,13 +22,19 @@
     <div id="bodyMain-container">
         <div id="aboutMe-container">
             <div class="aboutMe-cont">
-                <p class="title-style1">Howdy</p>
-                <p class="aboutMe-text">My name is Minh Dao Nguyen. I am currently an undergraduate student at Texas A&M
+                <div id="aboutMe-text">
+                <p class="title-style1 reveal-typeText">Howdy</p>
+                <p class="aboutMe-text reveal-typeText">My name is Minh Dao Nguyen. I am currently an undergraduate student at Texas A&M
                     University
                     studying Computer Science. I have a passion for building cool things and solving problems. </p>
-                <button id="aboutMe-button">
-                    About me
-                </button>
+                </div>
+                <div id="aboutMe-button-cont">
+                <div id="aboutMe-button">
+                    <a>
+                        About me
+                    </a>
+                </div>
+                </div>
             </div>
             <div class="aboutMe-cont">
 
@@ -38,43 +45,43 @@
         </div>
 
         <div id="skill-container">
-            <div class="skill-cont">
-                <div id="logo-container">
-                <a>
-                    <img src="logo/c++-logo.png" id="cPlus-img" class="lang-logo">
-                </a>
-                <a>
-                    <img src="logo/JS-logo.png" id="js-img" class="lang-logo">
-                </a>
-                <a>
-                    <img src="logo/java-logo.png" id="java-img" class="lang-logo">
-                </a>
-                <a>
-                    <img src="logo/python-logo.png" id="python-img" class="lang-logo">
-                </a>
-                <a>
-                    <img src="logo/web-logo.png" id="html-img" class="lang-logo">
-                </a>
+            <div class="skill-cont" >
+                <div id="logo-container" class="reveal">
+                    <a>
+                        <img src="logo/c++-logo.png" id="cPlus-img" class="lang-logo ">
+                    </a>
+                    <a>
+                        <img src="logo/JS-logo.png" id="js-img" class="lang-logo">
+                    </a>
+                    <a>
+                        <img src="logo/java-logo.png" id="java-img" class="lang-logo">
+                    </a>
+                    <a>
+                        <img src="logo/python-logo.png" id="python-img" class="lang-logo">
+                    </a>
+                    <a>
+                        <img src="logo/web-logo.png" id="html-img" class="lang-logo">
+                    </a>
+                </div>
             </div>
-            </div>
             <div class="skill-cont">
-                <p id="skill-title" class="title-style1"> Skills & Software</p>
-                <div class="skill-button-cont">
+                <p id="skill-title" class="title-style1 reveal"> Skills & Software</p>
+                <div class="skill-button-cont reveal">
                     <button id="all-button" class="skills-button">
                         All
                     </button>
                 </div>
-                <div class="skill-button-cont">
+                <div class="skill-button-cont reveal">
                     <button id="frontEnd-button" class="skills-button">
                         Front End
                     </button>
                 </div>
-                <div class="skill-button-cont">
+                <div class="skill-button-cont reveal">
                     <button id="backEnd-button" class="skills-button">
                         Back End
                     </button>
                 </div>
-                <div class="skill-button-cont">
+                <div class="skill-button-cont reveal">
                     <button id="dataEnd-button" class="skills-button">
                         Data Analysis
                     </button>
@@ -87,10 +94,10 @@
 
         <div id="experience-container">
             <p id="experience-title" class="title-style1"> Experience</p>
-            <div id="experience1-cont">
+            <div id="experience1-cont" class="reveal">
                 <div id="experience1-text">
                     <p id="job-title"> <i>Student Support Specialist (Front-End Development and Data Analytics)</i></p>
-                    <p>     March 2022 – Present</p>
+                    <p> March 2022 – Present</p>
                     <p> <b>Texas A&M Office for Academic Innovation</b></p>
                     <ul>
                         <li>Develop emails using HTML/CSS that gets delivered to over 4,500 staff/faculty
@@ -125,15 +132,17 @@
                 <p class="footer-title">
                     Connect with me
                 </p>
-                
+
             </div>
         </div>
         <div id="footer-contact">
-            <div class ="footer-cont">
+            <div class="footer-cont">
                 <p class="footer-title"> Contact me</p>
                 <p class="footer-text"> 323-244-5599</p>
                 <p class="footer-text"> minhdao@tamu.edu</p>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
+
 </body>

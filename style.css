@@ -53,6 +53,14 @@ body {
     background-color: black;
     color: white; 
 }
+#aboutMe-button-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#aboutMe-text{
+    display: block;
+}
 .title-style1{
     font-size: 40px;
 }
@@ -65,18 +73,23 @@ body {
     background-color: black;
 }
 #aboutMe-button{
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 10px;
     width: 150px;
     height: 50px;
     font-size: 20px;
-    border-color: black;
+    border: 1px solid white;
+    color: white;
     border-radius: 20px;
-    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    transition: all 0.5s;
+    
 
 }
 #aboutMe-button:hover{
     background-color:#0d333b ;
-    color: white; 
+    color: green; 
 }
 #skill-container{
     display: flex; 
@@ -143,4 +156,16 @@ body {
 
 .lang-logo{
     padding: 20px;
+}
+
+.reveal{
+    transition: 0.4s;
+}
+.reveal.hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+.reveal::after{
+    content: '';
+    display: block;
 }
