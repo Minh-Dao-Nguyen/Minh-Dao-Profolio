@@ -273,3 +273,16 @@ body {
     padding-top: 20px;
 
 }
+
+.reveal {
+    transition: 0.4s;
+}
+.reveal.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.reveal::after {
+    content: '';
+    display: block;
+}

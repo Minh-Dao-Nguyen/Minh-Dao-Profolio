@@ -51,8 +51,9 @@ function reveal() {
         }
 
     }
-
 }
+
+
 //load language Bar
 function loadBar() {
     const allBar = document.getElementsByClassName("chart-cont");

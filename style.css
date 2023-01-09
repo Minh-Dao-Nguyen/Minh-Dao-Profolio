@@ -65,7 +65,7 @@ body {
 .aboutMe-cont {
     width: 50%;
     padding: 40px;
-    background-color: black;
+    background-color: #212124	;
     color: white;
 }
 
@@ -109,8 +109,6 @@ body {
     color: white;
     border-radius: 20px;
     transition: all 0.5s;
-
-
 }
 
 #aboutMe-button:hover {
@@ -136,21 +134,33 @@ body {
 }
 
 .skills-button {
-    margin-top: 40px;
     padding: 20px;
     width: 120px;
+    font-size: 18px;
     border-radius: 10px;
-    border: 0;
+    border: 1px solid white;
+    transition: all 0.3s ease-in;
+}
+
+.skills-button:hover {
+    color: #430873;
+    background-color: #107d59;
+    font-weight: 500;
+    font-size: 20px;
+    
 }
 
 .skill-button-cont {
     width: 100%;
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 #experience-container {
     padding: 40px;
     padding-left: 80px;
-    background-color: black;
+    background-color:#161618;
     color: white;
     text-align: left;
     display: block;
@@ -197,7 +207,12 @@ body {
 #html-img {
     width: 60px;
 }
-
+#tableau-img{
+    width: 80px;
+}
+#excel-img{
+    width: 30px;
+}
 .lang-logo {
     padding: 0px;
 }
@@ -205,7 +220,6 @@ body {
 .reveal {
     transition: 0.4s;
 }
-
 .reveal.hidden {
     opacity: 0;
     visibility: hidden;
@@ -218,6 +232,8 @@ body {
 
 .lang-list {
     list-style: none;
+    padding: 0;
+    padding-left: 10px;
 }
 
 .logo-cont {
@@ -246,13 +262,21 @@ body {
 }
 #js{
     width: 120px;
+    margin-bottom: 50px;
 }
 #python{
     width: 100px;
+    
 }
 #java{
     width: 120px;
 }
 #web{
     width: 240px;
+}
+#tableau{
+    width: 140px;
+}
+#excel{
+    width: 100px;
 }
