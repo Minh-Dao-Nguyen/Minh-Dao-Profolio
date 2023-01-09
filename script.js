@@ -7,7 +7,7 @@ function typeText() {
         for (let y = 0; y < text.length; y++) {
             setTimeout(() => {
                 textCont[i].textContent += text[y];
-            }, y * 10);
+            }, y * 5);
         }
     }
 

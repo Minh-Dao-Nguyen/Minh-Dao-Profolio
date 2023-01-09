@@ -24,6 +24,31 @@ body {
     background-color: #0d333b;
     padding:10px; 
 }
-#bodyMain-container{
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0d333b;
+}
 
+#footer-location,
+#footer-social,
+#footer-contact {
+    width: 33.3%;
+}
+
+.footer-cont {
+    display: block;
+}
+
+.footer-title {
+    font-size: 25px;
+    color: white;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: white;
+}
+.footer-logo{
+    width: 50px;
 }

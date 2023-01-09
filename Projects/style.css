@@ -48,6 +48,9 @@ body {
     font-size: 18px;
     color: white;
 }
+.footer-logo{
+    width: 50px;
+}
 #filter-container{
     display: flex;
 }
