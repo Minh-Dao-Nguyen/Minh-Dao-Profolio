@@ -64,6 +64,9 @@ body {
 .title-style1{
     font-size: 40px;
 }
+.title-style2{
+    font-size: 30px;
+}
 .aboutMe-text{
     font-size: 20px; 
 }
@@ -139,25 +142,24 @@ body {
     font-size: 24px; 
 }
 #logo-container{
-    margin-top: 100px;
+    margin-top: 30px;
+    padding-top: 70px;
 }
 #tamuLogo-img{
     width: 300px;
 }
 #cPlus-img, #js-img, #python-img{
-    width: 100px; 
+    width: 40px; 
 }
 #java-img{
-    width: 70px; 
+    width: 30px; 
 }
 #html-img{
-    width: 180px; 
+    width: 80px; 
 }
-
 .lang-logo{
-    padding: 20px;
+    padding: 0px;
 }
-
 .reveal{
     transition: 0.4s;
 }
@@ -168,4 +170,19 @@ body {
 .reveal::after{
     content: '';
     display: block;
+}
+.chart-container{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+.barChart-container{
+    content: '';
+    width: 300px; 
+    height: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }

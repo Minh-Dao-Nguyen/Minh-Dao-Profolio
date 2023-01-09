@@ -15,7 +15,6 @@ window.addEventListener("scroll", reveal);
 function reveal(){
     //for container that are not window
     const allContainer = document.getElementsByClassName("reveal");
-    console.log(allContainer);
     for(let i = 0; i < allContainer.length; i++){
         if(!isInViewport(allContainer[i])){
             allContainer[i].classList.add("hidden");
@@ -38,4 +37,5 @@ function typeText(){
             }, y * 10);
         }
     }
+    
 }
