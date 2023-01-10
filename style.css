@@ -328,12 +328,11 @@ body {
 }
 #python{
     width: 100px;
-    margin-bottom: 90px;
-    
+
 }
 #java{
     width: 120px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 #web{
     width: 240px;

@@ -60,15 +60,23 @@ body {
 #filter-container{
     display: flex;
 }
+.center-div{
+    display: flex;
+    justify-content: center;
+}
 .cato-button{
     margin-top: 40px; 
     padding: 20px; 
     width: 120px;
     border-radius: 10px;
-    border: 0; 
+    border: 1px solid white; 
+    background-color: transparent;
+    color: white;
 }
 .cato-button-cont{
-    width: 100%;
+    width: 100px;
+    border: 1px solid white; 
+    height: 50px;
 }
 #catoFilter-container{
     background-color: black;
