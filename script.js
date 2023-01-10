@@ -1,13 +1,13 @@
 // Typeing Text
 function typeText() {
-    const textCont = document.getElementsByClassName("reveal-typeText");
+    const textCont = document.getElementsByClassName("reveal-typeText");    
     for (let i = 0; i < textCont.length; i++) {
         let text = textCont[i].textContent;
         textCont[i].textContent = "";
         for (let y = 0; y < text.length; y++) {
             setTimeout(() => {
                 textCont[i].textContent += text[y];
-            }, y * 5);
+            }, y * 4);
         }
     }
 
