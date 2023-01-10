@@ -29,6 +29,12 @@ body {
     height: 150px;
     background-color: black;
 }
+.current-page{
+    background-color: #2da9ad;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #footer{
     display: flex;
     justify-content: center;
@@ -113,6 +119,12 @@ body {
     bottom: -24%;
     left: 50%; 
     transform: translateX(-50%) translateY(-50%);
+}
+.top-right{
+    transform: translateX(-40%) translateY(20%);
+}
+.bottom-right{
+    transform: translateX(40%) translateY(-80%);
 }
 .lang-button{
     background-color: transparent;

@@ -26,6 +26,14 @@ body {
     padding-bottom: 40px;
     background-color: black;
 }
+.current-page{
+    background-color: #2da9ad;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .text{
     background-color: black;
     color: white;
