@@ -4,18 +4,17 @@ body {
     text-align: center;
     font-family: 'Open Sans';
 }
-
 #navLi-container,
 #navBar {
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
-
 #navLi-container {
-    float: right;
+    flex-direction: row-reverse;
 }
-
 .nav-li {
+    padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
     list-style: none;
@@ -25,10 +24,13 @@ body {
     color: white;
     font-size: 20px;
 }
-
 #nav-container {
     background-color: #0d333b;
-    padding: 10px;
+}
+#nameLogo-img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 .current-page{
     background-color: #2da9ad;
@@ -88,18 +90,36 @@ body {
     height: 450px;
 }
 
-#aboutMe-button-cont {
+.aboutMe-button-cont {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
-#aboutMe-text {
-    display: block;
+.name-text{
+    font-size: 45px;
+    font-weight: bold;
 }
+.aboutMe-text {
+    display: block;
+    font-size: 45px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+}
+.reveal-after-typeText{
+    display: none;
+    border: 0 !important;
+}
+.border-reveal{
+    border: 1px solid white; 
+    border-radius: 12px;
+}
+
 .aboutMe-link{
     text-decoration: none;
     color: white;
+    transition: all 0.5s ease-in;
+
 }
 #face-photo{
     border-radius: 50%;
@@ -120,40 +140,30 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: white;
+    padding: 20px;
     
 }
-#resume-button-cont{
-    margin-top: 40px;
-    border: 1px solid white;
+.resume-button:hover{
+    background-color: #0d333b;
+    color: green;
+}
+.resume-button-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
     border-radius: 12px;
     width: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 70px;
+    padding: 20px;
+
 }
+
 .empty-space {
     width: 100%;
     height: 100px;
     background-color: black;
 }
 
-#aboutMe-button {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    margin: 10px;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    border: 1px solid white;
-    color: white;
-    border-radius: 20px;
-    transition: all 0.5s;
-}
-
-#aboutMe-button:hover {
-    background-color: #0d333b;
-    color: green;
-}
 
 #skill-container {
     display: flex;
