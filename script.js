@@ -1,16 +1,24 @@
 // Typeing Text
+
 function typeText() {
-    const textCont = document.getElementsByClassName("reveal-typeText");    
+    const textCont = document.getElementsByClassName("reveal-typeText");
     for (let i = 0; i < textCont.length; i++) {
         let text = textCont[i].textContent;
         textCont[i].textContent = "";
         for (let y = 0; y < text.length; y++) {
             setTimeout(() => {
                 textCont[i].textContent += text[y];
-            }, y * 10);
+            }, y * 30);
         }
     }
-
+    setTimeout(() => {
+        const revealAfter = document.getElementsByClassName("reveal-after-typeText");
+        for (let i = 0; i < revealAfter.length; i++) {
+            let elem = revealAfter[i];
+            elem.classList.remove("reveal-after-typeText");
+            elem.classList.add("border-reveal");
+        }
+    }, 1500);
 }
 
 
@@ -64,10 +72,10 @@ function loadBar() {
         var wit = document.getElementById(temp).clientWidth;
         //console.log(wit);
         //put width to 0
-       allBar[i].style.width = 0;
+        allBar[i].style.width = 0;
         //load width back
         for (let y = 0; y <= wit; y++) {
-            setTimeout(() => {allBar[i].style.width = String(y) + "px";}, y * 3);
+            setTimeout(() => { allBar[i].style.width = String(y) + "px"; }, y * 3);
         }
     }
 

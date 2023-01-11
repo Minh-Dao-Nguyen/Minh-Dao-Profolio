@@ -3,17 +3,33 @@ body {
     text-align: center;
     font-family: 'Open Sans';
 }
-#navLi-container, #navBar{
+#navLi-container,
+#navBar {
     display: flex;
-    width: 100%; 
+    flex-direction: row;
+    width: 100%;
 }
-#navLi-container{
-    float: right; 
+#navLi-container {
+    flex-direction: row-reverse;
 }
-.nav-li{
+.nav-li {
+    padding: 10px;
     padding-left: 40px;
-    padding-right: 40px; 
+    padding-right: 40px;
     list-style: none;
+}
+.atr-style {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#nav-container {
+    background-color: #0d333b;
+}
+#nameLogo-img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 .atr-style{
     text-decoration: none;
@@ -22,7 +38,6 @@ body {
 }
 #nav-container{
     background-color: #0d333b;
-    padding:10px; 
 }
 .empty-space{
     width: 100%;
@@ -34,6 +49,9 @@ body {
     border-radius: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+#bodyMain-container{
+    background-color: black;
 }
 #footer{
     display: flex;
@@ -58,7 +76,8 @@ body {
     width: 50px;
 }
 #filter-container{
-    display: flex;
+    /*display: flex;*/
+    display: none;
 }
 .center-div{
     display: flex;
@@ -308,4 +327,8 @@ body {
 .reveal::after {
     content: '';
     display: block;
+}
+.profolio-img{
+    width: 200px;
+    padding: 10px;
 }
