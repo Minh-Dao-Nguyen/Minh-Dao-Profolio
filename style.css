@@ -74,20 +74,20 @@ body {
 }
 #aboutMe-container {
     display: flex;
+    justify-content: center;
     width: 80%;
 }
 
 .aboutMe-cont1, .aboutMe-cont2 {
-    width: 45%;
+    width: 450px;
     padding: 40px;
     color: white;
 }
 .aboutMe-cont1{
     background-color: #212124	;
-    width: 400px;
     border-radius: 20px;
-    margin-right: 60px;
     height: 450px;
+    margin-right: 100px;
 }
 
 .aboutMe-button-cont {
@@ -167,10 +167,12 @@ body {
 
 #skill-container {
     display: flex;
+    justify-content: center;
+    transform: translateX(50%), translateY(50%);
 }
 
 .skill-cont1, .skill-cont2 {
-    width: 40%;
+    width: 450px;
     padding: 40px;
     padding-top: 0;
     background-color: black;
@@ -181,7 +183,7 @@ body {
 .skill-cont2{
     border-radius: 15px;
     background-color: #212124;
-    width: 400px;
+    width: 450px;
     height: 550px;
     margin-top: 100px;
     margin-left: 100px;
@@ -233,8 +235,8 @@ body {
     background-color:#161618;
     color: white;
     text-align: left;
-    display: block;
-    width: 80%;
+    display: flex;
+    width: 60%;
     border-radius: 20px;
 
 }
