@@ -100,3 +100,57 @@ body {
     height: 100px;
     background-color: black;
 }
+
+.paragraph-cont{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+.text{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+.title-text{
+    background-color: black;
+    color: white; 
+    font-size: 25px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.green{
+    color: green;
+}
+.vsCode-blue-1{
+    color: #2d6de3; 
+}
+.doc-button-container{
+    display: flex;
+    justify-content: center;
+}
+.doc-button-cont{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.doc-button{
+    background-color: transparent;
+    color: white;
+    padding: 50px;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+.doc-button:hover{
+    color: #2d6de3; 
+    background-color: #19364d;
+}
