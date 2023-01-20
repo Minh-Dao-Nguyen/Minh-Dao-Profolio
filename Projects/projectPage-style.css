@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+#navLi-container,
+#navBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#navLi-container {
+    flex-direction: row-reverse;
+}
+.nav-li {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    list-style: none;
+}
+.atr-style {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#nav-container {
+    background-color: #0d333b;
+}
+#nameLogo-img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.atr-style{
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+}
+#nav-container{
+    background-color: #0d333b;
+}
+.empty-space{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+.current-page{
+    background-color: #2da9ad;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bodyMain-container{
+    background-color: black;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: #0d333b;
+}
+#footer-location, #footer-social, #footer-contact{
+    width: 33.3%;
+}
+.footer-cont{
+    display: block;
+}
+.footer-title{
+    font-size: 25px;
+    color: white;
+}
+.footer-text{
+    font-size: 18px;
+    color: white;
+}
+.footer-logo{
+    width: 50px;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+.GitHub-button{
+    background-color: transparent;
+    color: white;
+    padding: 50px;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+}
+.GitHub-button:hover{
+    background-color: #19364d ;
+    color:#00A86B;
+}
+.button-cont{
+    width: 200px; 
+    height: 100px;
+    background-color: black;
+}
