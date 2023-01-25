@@ -129,6 +129,12 @@ body {
 .vsCode-blue-1{
     color: #2d6de3; 
 }
+.dark-blue{
+    color:darkblue
+}
+.cyan{
+    color: cyan;
+}
 .doc-button-container{
     display: flex;
     justify-content: center;
@@ -156,4 +162,18 @@ body {
 }
 .demo-video{
     width: 800px;
+}
+.list{
+    color: purple;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.sub-list{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    margin-bottom: 10px;
 }
