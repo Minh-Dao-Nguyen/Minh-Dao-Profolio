@@ -258,6 +258,12 @@ body {
     margin-left: 20px;
 }
 
+#experience2-img{
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
 #job-title {
     font-size: 20px;
 }
@@ -270,7 +276,9 @@ body {
 #tamuLogo-img {
     width: 250px;
 }
-
+#resiLogo-img{
+    width: 200px;
+}
 #cPlus-img,
 #js-img,
 #python-img {
@@ -339,15 +347,15 @@ body {
     width: 300px;
 }
 #js{
-    width: 120px;
+    width: 200px;
     margin-bottom: 75px;
 }
 #python{
-    width: 100px;
+    width: 250px;
 
 }
 #java{
-    width: 120px;
+    width: 250px;
     margin-bottom: 70px;
 }
 #web{
